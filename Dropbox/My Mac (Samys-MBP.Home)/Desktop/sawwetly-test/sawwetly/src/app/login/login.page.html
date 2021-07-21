@@ -1,0 +1,38 @@
+<ion-content>
+  <div class="header">
+    <ion-img class="image1" src="../../assets/img/header1.png"></ion-img>
+    <ion-img class="image2" src="../../assets/img/Asset 1@4x.png"></ion-img>
+  </div>
+    <ion-card color="light" class="card">
+      <ion-card-header>
+          <ion-toolbar class="toolbar" mode="md">
+            <ion-segment value="SignIn">
+              <ion-segment-button value="signIn" (click)="SignIn()">
+                تسجيل الدخول
+              </ion-segment-button>
+              <ion-segment-button value="signUp" (click)="SignUp()">
+                إنشاء حساب
+              </ion-segment-button>
+            </ion-segment>
+          </ion-toolbar>
+      </ion-card-header>
+      <div id="signUp" [hidden]="!hidden"></div>
+      <div id="signIn" [hidden]="hidden">
+          <ion-input placeholder="البريد الإلكتروني" class="ion-text-right"></ion-input>
+          <ion-input placeholder="كلمة المرور" class="ion-text-right"></ion-input>
+        <ion-grid>
+          <ion-row class="row1">
+            <ion-col class="col1">
+              <ion-text color="dark" (click)="presentAlertPrompt()">نسيت كلمة المرور</ion-text>
+            </ion-col>
+            <ion-col class="col2">
+              <ion-label class="label">تذكرني</ion-label>
+              <ion-checkbox color="secondary" mode="md"></ion-checkbox>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+        <ion-button expand="block" (click)="goToProfile()">دخول</ion-button>
+      </div>
+    </ion-card>
+</ion-content>
+
