@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "581118858705",
+    "project_id": "hafefly-android",
+    "storage_bucket": "hafefly-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581118858705:android:cb3fb03a6c7e03d052fcf0",
+        "android_client_info": {
+          "package_name": "com.raynmore.hafefly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581118858705-toec3niq797uia0c9qkhtqvh0kcjvi2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQpgzlVagJEBjfu7ZDe-XFWd82kE35Xhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581118858705-toec3niq797uia0c9qkhtqvh0kcjvi2r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
