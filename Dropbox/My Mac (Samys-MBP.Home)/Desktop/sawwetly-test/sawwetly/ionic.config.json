@@ -1,7 +1,0 @@
-{
-  "name": "sawwetly",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
